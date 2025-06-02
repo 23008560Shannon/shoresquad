@@ -2,12 +2,6 @@
 // Features: Map loading, weather fetch, crew invite, accessibility enhancements
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Simulate map loading
-    const mapDiv = document.getElementById('map');
-    setTimeout(() => {
-        mapDiv.textContent = 'Interactive map coming soon!';
-    }, 1000);
-
     // Simulate weather fetch
     const weatherDiv = document.getElementById('weather');
     setTimeout(() => {
